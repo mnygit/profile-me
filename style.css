@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #4C454C;
+    
+  }  
+  
+  .description {
+    color: #444444;
+  }
+
+  .col-sm-5, #profile-left {
+    background-color: #E30047;
+    color: white;
+     /*  height: 650px;  */
+    position: fixed;
+    padding: 80px;
+    padding-bottom: 100%;
+    width: 100%;
+    height: auto;
+
+
+  }
+
+
+  .col-sm-7, #profile-right {
+    /* height: 650px; */
+    width: 100%;
+    height: auto;
+    position: relative; 
+    /* left: 600px;  */
+    left: 500px; 
+    padding: 80px;
+    padding-left: 30px; 
+  
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+    
+  
+    
+}  
+
+
+h4 {
+  text-align: center;
+  padding: 30px 0 40px 0;
+
+}
+
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white; 
+  
+} 
+
+a:hover, a:active {
+  text-decoration: none;
+  color:  #E30047;
+}
+
+
+.chat:hover {
+  text-decoration: none;
+  color:  #E30047;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+}
+
+
+  .contact {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #E30047;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+
+  }
+  
+
+  .social {
+    padding: 70px 0 70px 0;
+    margin: auto;
+    text-align: center;
+    display: block;
+    
+
+  
+  }
+  
+  
+
+.fa {
+  color: white;
+  padding: 2px;
+ 
+  
+
+}
+
+.fa:hover {
+  color:  #4C454C;
+}
+
+  
+
+.profile-image {
+  border-radius: 50%;
+  width: 165px;
+  height: 200px;
+  display: block;
+  margin: auto;   
+  
+    
+}
+
+.profile-image:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+
+
+
+.greeting {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+
+}
+
+
+
+.turn {
+  transform: rotateX(360deg);
+  transition: transform .6s;
+
+}
+
+
+
+
+
+
+.categories {
+  text-transform: uppercase;
+  color: #E30047;
+  
+
+}
+
